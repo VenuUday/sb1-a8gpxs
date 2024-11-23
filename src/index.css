@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: theme('colors.purple.500');
+  color: white;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent;
+}
+
+.hover-gradient {
+  @apply relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 
+         after:bg-gradient-to-r after:from-purple-600 after:to-pink-600 
+         hover:after:w-full after:transition-all after:duration-300;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
