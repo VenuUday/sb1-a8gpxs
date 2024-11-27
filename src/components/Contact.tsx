@@ -13,8 +13,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      content: '21BCS4863@cuchd.in',
-      link: 'mailto:21BCS4863@cuchd.in',
+      content: 'venuuday96@gmail.com',
+      link: 'mailto:venuuday96@gmail.com',
       color: 'hover:text-pink-600',
     },
     {
