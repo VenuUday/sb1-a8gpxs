@@ -85,7 +85,7 @@ const Hero = () => {
           >
             <div className="relative w-72 h-72 sm:w-96 sm:h-96 mx-auto">
               <motion.img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+                src="venu.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover rounded-full shadow-2xl"
                 whileHover={{ scale: 1.05 }}
