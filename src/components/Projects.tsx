@@ -11,12 +11,12 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform with real-time inventory management and payment processing.',
+      title: 'Real Time Online Voting System ',
+      description: 'A real-time voting system leveraging JavaScript frameworks for dynamic, interactive, and seamless user experiences.',
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      githubLink: 'https://github.com/yourusername/project1',
-      liveLink: 'https://project1.com'
+      technologies: ['React', 'Node.js', 'Firebase', 'Vite'],
+      githubLink: 'https://github.com/VenuUday/sb1-6bp3yg',
+      liveLink: 'https://votingrealtime.netlify.app/'
     },
     {
       title: 'Task Management App',
