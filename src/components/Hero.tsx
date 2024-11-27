@@ -22,7 +22,7 @@ const Hero = () => {
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      href: 'mailto:21BCS4863@cuchd.in',
+      href: 'mailto:venuuday96@gmail.com',
       color: 'hover:text-red-500',
     },
   ];
@@ -85,7 +85,7 @@ const Hero = () => {
           >
             <div className="relative w-72 h-72 sm:w-96 sm:h-96 mx-auto">
               <motion.img
-                src="https://github.com/VenuUday/sb1-a8gpxs/blob/main/src/components/venu.jpg"
+                src="venu.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover rounded-full shadow-2xl"
                 whileHover={{ scale: 1.05 }}
