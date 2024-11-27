@@ -85,7 +85,7 @@ const Hero = () => {
           >
             <div className="relative w-72 h-72 sm:w-96 sm:h-96 mx-auto">
               <motion.img
-                src="venu.jpg"
+                src="https://github.com/VenuUday/sb1-a8gpxs/blob/main/src/components/venu.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover rounded-full shadow-2xl"
                 whileHover={{ scale: 1.05 }}
